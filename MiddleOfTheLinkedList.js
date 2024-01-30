@@ -25,3 +25,32 @@ The number of nodes in the list is in the range [1, 100].
 1 <= Node.val <= 100
 */
 
+
+
+// head of a linked list
+
+// middle node
+
+// head = [1,2,3,4,5] => [3,4,5]
+// head = [1,2,3,4,5,6] => [4,5,6]
+
+// Traverse the linked list with a fast and slow pointer
+
+
+ //Definition for singly-linked list.
+ function ListNode(val, next) {
+    this.val = (val===undefined ? 0 : val)
+    this.next = (next===undefined ? null : next)
+}
+
+/**
+* @param {ListNode} head
+* @return {ListNode}
+*/
+var middleNode = function(head) {
+let slow = head;
+let fast = slow.next;
+
+
+
+}
